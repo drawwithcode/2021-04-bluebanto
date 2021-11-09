@@ -13,12 +13,6 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
-  /*createElement("button1");
-
-  button1.style("my-Button1");
-  button1.mouseOver(noLoop);
-  button1.mouseOut(loop);*/
 }
 
 function draw() {
@@ -29,9 +23,7 @@ function draw() {
   textFont(myFont);
   textSize(windowWidth / 85, windowHeight / 85);
   text("@BLUEBANTO", windowWidth / 1.13, windowHeight - 720);
-  /*function mouseClicked() {
-    window.open("https://www.instagram.com/bluebanto/?hl=it", "_self");
-  }*/
+  
 
   //IMMAGINE TIPS
   imageMode(CENTER);
