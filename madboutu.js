@@ -6,9 +6,9 @@ let myTipsimg;
 function preload() {
   //carico font diverse da quelle disponibili sulla piattaforma di google fonts
   //creo due variabili, una per ognuna delle due font adoperate (myFont e mysecondFont)
-  myFont = loadFont("./Assets/font/Sporting_Grotesque-Regular_web.otf");
-  myPlayimg = loadImage("./Assets/images/madboutu.png");
-  myTipsimg = loadImage("./Assets/images/angertips.png");
+  myFont = loadFont("./assets/font/Sporting_Grotesque-Regular_web.otf");
+  myPlayimg = loadImage("./assets/images/madboutu.png");
+  myTipsimg = loadImage("./assets/images/angertips.png");
 }
 
 function setup() {
