@@ -26,7 +26,7 @@ function preload() {
   //carico font diverse da quelle disponibili sulla piattaforma di google fonts
   //creo due variabili, una per ognuna delle due font adoperate (myFont e mysecondFont)
   myFont = loadFont("assets/font/Sporting_Grotesque-Regular_web.otf");
-  myTitleimg = loadImage("assets/Images/TITOLOLAVORO_.png");
+  myTitleimg = loadImage("assets/images/TITOLOLAVORO_.png");
 }
 
 function setup() {
