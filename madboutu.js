@@ -1,24 +1,21 @@
+//definisco la font che andrò ad utilizzare
 let myFont;
+//per testo a scorrimento
 let x = 0;
+//definisco le due immagini
 let myPlayimg;
 let myTipsimg;
 
 function preload() {
-  //carico font diverse da quelle disponibili sulla piattaforma di google fonts
-  //creo due variabili, una per ognuna delle due font adoperate (myFont e mysecondFont)
+  //carico la mia font dagli assets
   myFont = loadFont("./assets/font/Sporting_Grotesque-Regular_web.otf");
+  //carico foto dagli assets
   myPlayimg = loadImage("./assets/images/madboutu.png");
   myTipsimg = loadImage("./assets/images/angertips.png");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
-  /*createElement("button1");
-
-  button1.style("my-Button1");
-  button1.mouseOver(noLoop);
-  button1.mouseOut(loop);*/
 }
 
 function draw() {

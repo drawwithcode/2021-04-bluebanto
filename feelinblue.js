@@ -1,12 +1,15 @@
+//definisco la mia font
 let myFont;
+//per testo a scorrimento
 let x = 0;
+//definisco le due immagini
 let myPlayimg;
 let myTipsimg;
 
 function preload() {
-  //carico font diverse da quelle disponibili sulla piattaforma di google fonts
-  //creo due variabili, una per ognuna delle due font adoperate (myFont e mysecondFont)
+//carico la mia font dagli assets
   myFont = loadFont("./assets/font/Sporting_Grotesque-Regular_web.otf");
+  //carico foto dagli assets
   myPlayimg = loadImage("./assets/images/feelinblue.png");
   myTipsimg = loadImage("./assets/images/sadtips.png");
 }
@@ -23,9 +26,7 @@ function draw() {
   textFont(myFont);
   textSize(windowWidth / 85, windowHeight / 85);
   text("@BLUEBANTO", windowWidth / 1.13, windowHeight - 720);
-  /*function mouseClicked() {
-    window.open("https://www.instagram.com/bluebanto/?hl=it", "_self");
-  }*/
+
 
   //COPERTINA PLAYLIST
   imageMode(CENTER);

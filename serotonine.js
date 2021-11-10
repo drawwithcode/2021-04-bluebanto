@@ -1,12 +1,15 @@
+//definisico la font che andrò ad usare
 let myFont;
+//per testo a scorrimento
 let x = 0;
+//definisco le due immagini
 let myPlayimg;
 let myTipsimg;
 
 function preload() {
-  //carico font diverse da quelle disponibili sulla piattaforma di google fonts
-  //creo due variabili, una per ognuna delle due font adoperate (myFont e mysecondFont)
+  //carico la mia font dagli assets
   myFont = loadFont("./assets/font/Sporting_Grotesque-Regular_web.otf");
+  //carico foto dagli assets
   myPlayimg = loadImage("./assets/images/serotonine.png");
   myTipsimg = loadImage("./assets/images/happytips.png");
 }
@@ -23,7 +26,7 @@ function draw() {
   textFont(myFont);
   textSize(windowWidth / 85, windowHeight / 85);
   text("@BLUEBANTO", windowWidth / 1.13, windowHeight - 720);
-  
+
 
   //IMMAGINE TIPS
   imageMode(CENTER);
